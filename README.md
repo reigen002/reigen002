@@ -1,97 +1,178 @@
 <div align="center">
 
-# Hi, I'm Panshul Sarma
+# Panshul Sarma
 
-**B.Tech CSE (AI & ML)** · Jain University · Bengaluru
+**AI/ML Engineer · Backend Developer · B.Tech CSE (AI & ML)**
 
-Building products at the intersection of **agentic AI**, **RAG**, and **production backends**.
+I build AI systems that connect **models, retrieval, agents, APIs, and real-world data** — with most of my recent work focused on local inference, RAG, agentic workflows, and Python backends.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-panshul.tech-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://www.panshul.tech)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Panshul%20Sarma-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/panshul-sarma-746462287/)
-[![Email](https://img.shields.io/badge/Email-pans83372%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pans83372@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-reigen002-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/reigen002)
+[Portfolio](https://www.panshul.tech) · [LinkedIn](https://www.linkedin.com/in/panshul-sarma-746462287/) · [Email](mailto:pans83372@gmail.com)
 
 </div>
 
----
+## About
 
-### About me
+I'm a Computer Science student specializing in Artificial Intelligence and Machine Learning at Jain University, Bengaluru.
 
-I'm a Computer Science student specializing in Artificial Intelligence and Machine Learning (CGPA **8.6**). I focus on shipping end-to-end systems — from model pipelines and vector retrieval to FastAPI/Spring Boot services and CI/CD.
+My work generally sits between **AI engineering and backend development**: taking models or LLM workflows beyond notebooks and turning them into usable systems with APIs, persistence, retrieval, concurrency, testing, and deployment.
 
-- Agentic workflows with **CrewAI**, **LangChain**, and LLM orchestration
-- Multilingual NLP / speech pipelines and offline multi-model inference
-- Backend APIs, Dockerized deployments, and GitHub Actions CI/CD
-- Java Developer Intern at **EazBytz**; Tech Co-Lead at **Cognito Club**
+Currently interested in:
 
----
+* Agentic AI and tool-using systems
+* Retrieval-Augmented Generation and semantic search
+* Speech and multilingual NLP systems
+* Backend/API architecture with Python and Java
+* Local and resource-efficient AI inference
 
-### Tech stack
+## Selected Projects
 
-**Languages**
+### [PolyglotTalk](https://github.com/reigen002/polyglot-talk)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+**Offline multilingual speech-to-speech translation for 8 Indian languages.**
 
-**AI / ML**
+```text
+Microphone → Whisper ASR → Argos Translate → MMS-TTS → Speech
+```
 
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square&logo=scikitlearn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![CrewAI](https://img.shields.io/badge/CrewAI-1C1C1C?style=flat-square&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-5C2D91?style=flat-square)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square)
-![NLP](https://img.shields.io/badge/NLP-00A67E?style=flat-square)
+Built as a concurrent four-stage inference pipeline rather than a sequential model demo.
 
-**Backend & tooling**
+* Runs completely locally after model setup; no cloud inference APIs
+* Uses `faster-whisper`, Argos Translate and Facebook MMS-TTS
+* Separate worker threads for audio capture, ASR, translation and synthesis
+* Overlapping audio windows prevent words from being lost at chunk boundaries
+* Sentence buffering preserves translation context across ASR fragments
+* Bounded queues and drop-oldest backpressure keep the pipeline responsive
+* Automatic CUDA/CPU selection for TTS
+* Includes automated tests and ASR benchmarking infrastructure
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-02569B?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+`Python` `PyTorch` `Whisper` `Transformers` `NLP` `CUDA` `pytest`
 
 ---
 
-### Featured projects
+### [Skylark AI Agent](https://github.com/reigen002/skylark_aiagent)
 
-| Project | Stack | Description |
-| --- | --- | --- |
-| [**polyglot-talk**](https://github.com/reigen002/polyglot-talk) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | Multilingual speech-to-speech translation — Whisper ASR, Argos Translate, MMS-TTS; offline multi-model inference for 8 Indian languages |
-| [**ai_gaming_assistant**](https://github.com/reigen002/ai_gaming_assistant) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![CrewAI](https://img.shields.io/badge/CrewAI-1C1C1C?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) | Agentic RPG knowledge base — RAG ingest + vector search, LLM orchestration, and REST APIs for player guides |
-| [**Edgerunners-SRTS**](https://github.com/reigen002/Edgerunners-SRTS) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Smart Rental Tracking System — fleet telemetry, anomaly detection, demand forecasting, and rental lifecycle management |
-| [**skylark_aiagent**](https://github.com/reigen002/skylark_aiagent) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) [![Live](https://img.shields.io/badge/Live-Demo-000000?style=flat-square&logo=vercel&logoColor=white)](https://skylark-aiagent.vercel.app) | Deployed AI agent application |
-| [**EazyByts**](https://github.com/reigen002/EazyByts) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) | Internship / full-stack work spanning Spring Boot backends and modern web UIs |
+**Conversational business-intelligence agent over live Monday.com operational data.**
+
+Built an AI agent that can reason over Deals and Work Orders boards and answer questions such as pipeline health, overdue work, sector performance and leadership-level KPIs.
+
+```text
+User
+  → FastAPI
+  → LangGraph ReAct Agent
+  → Business Intelligence Tools
+  → Monday.com GraphQL API
+```
+
+* LangGraph ReAct agent with tool-based reasoning
+* Queries live Monday.com data through its GraphQL API
+* Cursor-paginated board ingestion
+* Cross-board analysis across sales and operational data
+* Dedicated tools for pipeline, work-order and leadership analysis
+* Handles inconsistent dates, currencies, missing values and dynamic schemas
+* FastAPI backend with a separately deployed web frontend
+
+`Python` `LangGraph` `FastAPI` `GraphQL` `Groq` `httpx`
 
 ---
 
-### GitHub stats
+### [RPG Gaming Assistant](https://github.com/reigen002/ai_gaming_assistant)
+
+**RAG-powered gaming assistant with local retrieval, web fallback and persistent conversations.**
+
+Rather than sending every question directly to an LLM, the assistant uses progressively more expensive information sources:
+
+```text
+Question
+   → ChromaDB semantic retrieval
+   → Web search when local knowledge is insufficient
+   → Cache new knowledge
+   → LLM synthesis
+```
+
+* ChromaDB-backed semantic retrieval
+* Automatic web-search fallback using Serper and DuckDuckGo
+* Successful web results are indexed for future retrieval
+* CrewAI-based agent orchestration
+* FastAPI backend
+* Per-game conversation persistence using SQLite
+* Graceful fallback when LLM rate limits are reached
+* Embeddable browser sidebar interface
+
+`Python` `CrewAI` `RAG` `ChromaDB` `FastAPI` `SQLite` `Groq`
+
+---
+
+### [Smart Rental Tracking System](https://github.com/reigen002/Edgerunners-SRTS)
+
+**Team-built rental fleet intelligence system for tracking equipment, telemetry and utilization.**
+
+Developed as a hackathon project around rental-fleet operations and decision support.
+
+* Asset check-in/check-out lifecycle tracking
+* Telemetry ingestion and deterministic simulation scenarios
+* Rule-based anomaly detection and alert generation
+* Utilization analysis from engine and idle hours
+* Demand forecasting and asset-allocation recommendations
+* FastAPI + SQLAlchemy backend
+* React frontend connected to the real backend API
+* Reproducible seeded demo environment with automated backend tests
+
+`Python` `FastAPI` `SQLAlchemy` `React` `Forecasting` `Docker`
+
+---
+
+### [Gmail Automation with CrewAI](https://github.com/reigen002/gmail_automation-crewai)
+
+**Multi-agent email triage and inbox automation system.**
+
+Uses specialized agents to process an inbox as a workflow rather than treating email automation as a single LLM prompt.
+
+* Email categorization and priority classification
+* Gmail organization and labeling
+* Draft response generation
+* Slack alerts for high-priority messages
+* Rule-based cleanup and preservation policies
+* Multiple configurable LLM providers
+
+`Python` `CrewAI` `Gmail` `LLMs` `Slack`
+
+## Other Work
+
+### [Real-Time Chat Application](https://github.com/reigen002/EazyByts)
+
+Full-stack multi-room chat application with a React frontend and Java Spring Boot backend, using WebSockets for real-time messaging.
+
+`Java` `Spring Boot` `WebSocket` `React` `Maven`
+
+## Tech
+
+| Area            | Technologies                                                 |
+| --------------- | ------------------------------------------------------------ |
+| **Languages**   | Python, Java, SQL, JavaScript                                |
+| **AI / ML**     | PyTorch, Hugging Face, NLP, RAG, CrewAI, LangGraph, ChromaDB |
+| **Backend**     | FastAPI, Spring Boot, REST APIs, WebSockets, SQLAlchemy      |
+| **Data**        | SQLite, SQL, vector databases                                |
+| **Engineering** | Docker, Git, GitHub Actions, pytest                          |
+| **Frontend**    | React, Vite, Tailwind CSS                                    |
+
+## Experience
+
+**Java Developer Intern — EazBytz**
+Worked on Java/Spring Boot backend development and reusable application components.
+
+**Tech Co-Lead — Cognito Club**
+Contributed to technical development and helped conduct an Agentic AI workshop using Lyzr AI.
+
+## What I'm Exploring
+
+I'm particularly interested in systems where AI is only one component of the architecture — retrieval, state, tools, APIs, concurrency, evaluation and failure handling matter just as much as the model itself.
+
+I'm currently looking to deepen my work in **AI engineering, backend systems, agent infrastructure, and production-oriented ML**.
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=reigen002&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+### Let's connect
 
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=reigen002&theme=dark&hide_border=false)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=reigen002&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=reigen002&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-</div>
-
----
-
-<div align="center">
-
-Open to internships, collaborations, and building useful AI systems.
-
-[![Profile views](https://visitcount.itsvg.in/api?id=reigen002&icon=0&color=0)](https://visitcount.itsvg.in)
+[LinkedIn](https://www.linkedin.com/in/panshul-sarma-746462287/) · [Portfolio](https://www.panshul.tech) · [GitHub](https://github.com/reigen002)
 
 </div>
