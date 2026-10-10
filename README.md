@@ -8,7 +8,6 @@ I build AI systems that connect **models, retrieval, agents, APIs, and real-worl
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-panshul.tech-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.panshul.tech)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/panshul-sarma-746462287/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pans83372@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/reigen002)
