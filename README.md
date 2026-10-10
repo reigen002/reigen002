@@ -18,7 +18,7 @@ I build AI systems that connect **models, retrieval, agents, APIs, and real-worl
 
 I'm a Computer Science student specializing in Artificial Intelligence and Machine Learning at Jain University, Bengaluru.
 
-My work generally sits between **AI engineering and backend development**: taking models or LLM workflows beyond notebooks and turning them into usable systems with APIs, persistence, retrieval, concurrency, testing, and deployment.
+My work generally sits between **AI engineering and software development**: taking models or LLM workflows beyond notebooks and turning them into usable systems with APIs, persistence, retrieval, concurrency, testing, and deployment.
 
 Currently interested in:
 
