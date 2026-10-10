@@ -91,7 +91,7 @@ User
 
 ---
 
-### [RPG Gaming Assistant](https://github.com/reigen002/ai_gaming_assistant)
+### [Lore-X](https://github.com/reigen002/Lore-X)
 
 **RAG-powered gaming assistant with local retrieval, web fallback and persistent conversations.**
 
@@ -124,7 +124,7 @@ Question
 
 ---
 
-### [Smart Rental Tracking System](https://github.com/reigen002/Edgerunners-SRTS)
+### [Smart Rental Tracking System](https://github.com/reigen002/FleetSignal)
 
 **Team-built rental fleet intelligence system for tracking equipment, telemetry and utilization.**
 
@@ -186,7 +186,6 @@ Full-stack multi-room chat application with a React frontend and Java Spring Boo
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 **AI / ML**
 
@@ -195,7 +194,6 @@ Full-stack multi-room chat application with a React frontend and Java Spring Boo
 ![NLP](https://img.shields.io/badge/NLP-00A67E?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-5C2D91?style=flat-square)
 ![CrewAI](https://img.shields.io/badge/CrewAI-1C1C1C?style=flat-square&logo=openai&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square)
 
 **Backend**
@@ -258,7 +256,6 @@ I'm currently looking to deepen my work in **AI engineering, backend systems, ag
 ### Let's connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/panshul-sarma-746462287/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.panshul.tech)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/reigen002)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pans83372@gmail.com)
 
