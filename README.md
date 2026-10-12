@@ -1,6 +1,6 @@
 <div align="center">
 
-# Panshul Sarma
+# Panshul Pratik Sarma
 
 **AI Engineer · Backend / Software Engineer · B.Tech CSE (AI & ML)**
 
